@@ -44,7 +44,7 @@ function getNewCards(cards, initialCards = cards) {
   return numberOfCards
 }
 
-fs.readFile('Day4/day4input.txt', 'utf8', (err, input) => {
+fs.readFile('day4input.txt', 'utf8', (err, input) => {
   if (err) {
     console.error(err)
     return
